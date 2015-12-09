@@ -37,9 +37,6 @@
       "email": "rwood@mozilla.com"
     }
   ],
-  "peerDependencies": {
-    "@mozilla/raptor": "^5.0.0"
-  }
   "repository": "mozilla-raptor/submit",
   "scripts": {}
 }
