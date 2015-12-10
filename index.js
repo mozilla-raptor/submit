@@ -10,7 +10,7 @@ module.exports = (cli) => {
     .description('Submit a performance metrics file to an InfluxDB database')
     .action((args) => {
       return Promise
-        .resolve(R.merge({ metrics: metrics }, args.options))
+        .resolve(R.merge({ metrics }, args.options))
         .then(submit)
         .then(() => cli.log('Database results submitted successfully'))
         .catch(cli.exits)
