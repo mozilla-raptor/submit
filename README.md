@@ -1,5 +1,5 @@
 # raptor-submit
-### Performance metrics submittion for @mozilla/raptor
+### Performance metrics submission for @mozilla/raptor
 
 ## Documentation
 
